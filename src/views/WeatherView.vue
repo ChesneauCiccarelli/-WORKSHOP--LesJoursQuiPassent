@@ -49,14 +49,16 @@ const getEnseign = (latitude, longitude) => {
 </script>
 
 <template>
-  <div>
+  <RouterLink to="/">Home Page</RouterLink>
+  <main>
+    <br />
     <button type="button" @click="locMe()">Se localiser</button>
     <span v-if="coordMe"> coordonnées : {{ coordMe.latitude }} - {{ coordMe.longitude }}</span>
     <span v-else>Pas de coordonnées</span>
     <hr />
     <button type="button" @click="getEnseign(coordMe.latitude, coordMe.longitude)">données</button>
     <p id="meteo"></p>
-  </div>
+  </main>
 </template>
 
 <style>

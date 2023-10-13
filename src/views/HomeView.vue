@@ -1,9 +1,10 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup></script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <nav>
+    <ul>
+      <li><a href="/weather">Weather API</a></li>
+      <li><a href="/image">Image of The Day</a></li>
+    </ul>
+  </nav>
 </template>
