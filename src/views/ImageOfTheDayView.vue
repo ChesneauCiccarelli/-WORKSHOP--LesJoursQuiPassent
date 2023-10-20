@@ -1,4 +1,5 @@
 <template>
+  <RouterLink to="/">Home Page</RouterLink>
   <div>
     <h2>Sélectionnez une date :</h2>
     <div>
